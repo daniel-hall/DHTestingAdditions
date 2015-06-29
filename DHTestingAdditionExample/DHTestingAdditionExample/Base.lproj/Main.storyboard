@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.20" systemVersion="15A204h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="G8Z-45-0Nn">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waiting for something to happen before you can proceed to the next screen." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="l7R-Uv-fHl">
+                                <rect key="frame" x="166" y="193" width="269" height="65"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQP-2C-VFJ">
+                                <rect key="frame" x="261" y="296" width="79" height="49"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.77296037894488201" green="0.85682145388561215" blue="0.95686274510000002" alpha="0.7588682432432432" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <inset key="contentEdgeInsets" minX="24" minY="10" maxX="24" maxY="10"/>
+                                <state key="normal" title="Go"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="c0U-BT-tP6" kind="show" id="cSE-np-w6L"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="fEP-td-RtZ">
+                                <rect key="frame" x="282" y="302" width="37" height="37"/>
+                                <animations/>
+                                <color key="color" red="0.46324573863636365" green="0.46324573863636365" blue="0.46324573863636365" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fEP-td-RtZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0XY-zD-xW6"/>
+                            <constraint firstItem="fEP-td-RtZ" firstAttribute="top" secondItem="l7R-Uv-fHl" secondAttribute="bottom" constant="44" id="1uR-va-dWE"/>
+                            <constraint firstItem="l7R-Uv-fHl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.75" id="60w-Mo-wvc"/>
+                            <constraint firstItem="nQP-2C-VFJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BU5-ET-Mde"/>
+                            <constraint firstItem="l7R-Uv-fHl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rZu-D3-nF9"/>
+                            <constraint firstItem="nQP-2C-VFJ" firstAttribute="top" secondItem="l7R-Uv-fHl" secondAttribute="bottom" constant="38" id="tv9-ec-zgx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="oo2-l4-M5j"/>
+                    <connections>
+                        <outlet property="goButton" destination="nQP-2C-VFJ" id="kuY-Ke-mI5"/>
+                        <outlet property="messageLabel" destination="l7R-Uv-fHl" id="sCD-cg-VOd"/>
+                        <outlet property="waitingIndicator" destination="fEP-td-RtZ" id="zv1-HD-IfB"/>
+                        <outletCollection property="goButtonConstraints" destination="BU5-ET-Mde" id="aOW-RW-bEy"/>
+                        <outletCollection property="goButtonConstraints" destination="tv9-ec-zgx" id="ERG-cc-44q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1152" y="429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Gv0-w8-0tF">
+            <objects>
+                <viewController id="c0U-BT-tP6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="G2G-2t-b6N"/>
+                        <viewControllerLayoutGuide type="bottom" id="66a-ZO-dBT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IbB-85-kYQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have arrived on the next screen!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="jlO-GV-Oup">
+                                <rect key="frame" x="183" y="204" width="235" height="43"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jlO-GV-Oup" firstAttribute="centerX" secondItem="IbB-85-kYQ" secondAttribute="centerX" id="Ip7-vc-sRw"/>
+                            <constraint firstItem="jlO-GV-Oup" firstAttribute="centerY" secondItem="IbB-85-kYQ" secondAttribute="centerY" multiplier="0.75" id="rRm-CI-Hpr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oT2-TV-RDH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1849" y="429"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9KQ-60-Oqr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="G8Z-45-0Nn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZMq-G0-Dgh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="biC-1g-m0X"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yup-mr-p9a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="327" y="429"/>
+        </scene>
+    </scenes>
+</document>

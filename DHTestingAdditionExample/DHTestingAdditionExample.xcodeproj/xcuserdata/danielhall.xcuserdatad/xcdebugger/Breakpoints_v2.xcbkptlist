@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DHTestingAdditionExampleUITests/DHTestingAdditionExampleUITests.m"
+            timestampString = "457163234.080485"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-testTapGoButton"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DHTestingAdditionExampleUITests testExample]"
+                  moduleName = "DHTestingAdditionExampleUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielhall/Documents/projects/DHTestingAdditions/DHTestingAdditionExample/DHTestingAdditionExampleUITests/DHTestingAdditionExampleUITests.m"
+                  timestampString = "457163498.073681"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "352">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DHTestingAdditionExampleUITests testExample]"
+                  moduleName = "DHTestingAdditionExampleUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielhall/Documents/projects/DHTestingAdditions/DHTestingAdditionExample/DHTestingAdditionExampleUITests/DHTestingAdditionExampleUITests.m"
+                  timestampString = "457163498.073874"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "422">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DHTestingAdditionExampleUITests testExample]"
+                  moduleName = "DHTestingAdditionExampleUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielhall/Documents/projects/DHTestingAdditions/DHTestingAdditionExample/DHTestingAdditionExampleUITests/DHTestingAdditionExampleUITests.m"
+                  timestampString = "457163498.074105"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1098">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DHTestingAdditionExampleUITests testExample]"
+                  moduleName = "DHTestingAdditionExampleUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielhall/Documents/projects/DHTestingAdditions/DHTestingAdditionExample/DHTestingAdditionExampleUITests/DHTestingAdditionExampleUITests.m"
+                  timestampString = "457163498.074367"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1202">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DHTestingAdditionExampleUITests testExample]"
+                  moduleName = "DHTestingAdditionExampleUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielhall/Documents/projects/DHTestingAdditions/DHTestingAdditionExample/DHTestingAdditionExampleUITests/DHTestingAdditionExampleUITests.m"
+                  timestampString = "457163498.07457"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
