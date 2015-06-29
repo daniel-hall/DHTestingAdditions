@@ -15,8 +15,8 @@
 		CE2997E61B3FAAE200142352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2997E41B3FAAE200142352 /* LaunchScreen.storyboard */; };
 		CE2997F11B3FAAE200142352 /* DHTestingAdditionExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2997F01B3FAAE200142352 /* DHTestingAdditionExampleTests.m */; };
 		CE2997FC1B3FAAE200142352 /* DHTestingAdditionExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2997FB1B3FAAE200142352 /* DHTestingAdditionExampleUITests.m */; };
-		CE29980C1B3FABE300142352 /* XCTestCase+DHTestingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE29980B1B3FABE300142352 /* XCTestCase+DHTestingAdditions.m */; };
-		CE29980D1B3FABE300142352 /* XCTestCase+DHTestingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE29980B1B3FABE300142352 /* XCTestCase+DHTestingAdditions.m */; };
+		CE3EAEA31B40FDBC00D425A7 /* XCTestCase+DHTestingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3EAEA21B40FDBC00D425A7 /* XCTestCase+DHTestingAdditions.m */; };
+		CE3EAEA41B40FDBC00D425A7 /* XCTestCase+DHTestingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3EAEA21B40FDBC00D425A7 /* XCTestCase+DHTestingAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +53,8 @@
 		CE2997F71B3FAAE200142352 /* DHTestingAdditionExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHTestingAdditionExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2997FB1B3FAAE200142352 /* DHTestingAdditionExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHTestingAdditionExampleUITests.m; sourceTree = "<group>"; };
 		CE2997FD1B3FAAE200142352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE29980A1B3FABE300142352 /* XCTestCase+DHTestingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+DHTestingAdditions.h"; sourceTree = "<group>"; };
-		CE29980B1B3FABE300142352 /* XCTestCase+DHTestingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+DHTestingAdditions.m"; sourceTree = "<group>"; };
+		CE3EAEA11B40FDBC00D425A7 /* XCTestCase+DHTestingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+DHTestingAdditions.h"; sourceTree = "<group>"; };
+		CE3EAEA21B40FDBC00D425A7 /* XCTestCase+DHTestingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+DHTestingAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 				CE2997D51B3FAAE200142352 /* DHTestingAdditionExample */,
 				CE2997EF1B3FAAE200142352 /* DHTestingAdditionExampleTests */,
 				CE2997FA1B3FAAE200142352 /* DHTestingAdditionExampleUITests */,
-				CE2998091B3FABE300142352 /* DHTestingAdditions */,
+				CE3EAEA01B40FDBC00D425A7 /* DHTestingAdditions */,
 				CE2997D41B3FAAE200142352 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -145,13 +145,14 @@
 			path = DHTestingAdditionExampleUITests;
 			sourceTree = "<group>";
 		};
-		CE2998091B3FABE300142352 /* DHTestingAdditions */ = {
+		CE3EAEA01B40FDBC00D425A7 /* DHTestingAdditions */ = {
 			isa = PBXGroup;
 			children = (
-				CE29980A1B3FABE300142352 /* XCTestCase+DHTestingAdditions.h */,
-				CE29980B1B3FABE300142352 /* XCTestCase+DHTestingAdditions.m */,
+				CE3EAEA11B40FDBC00D425A7 /* XCTestCase+DHTestingAdditions.h */,
+				CE3EAEA21B40FDBC00D425A7 /* XCTestCase+DHTestingAdditions.m */,
 			);
-			path = DHTestingAdditions;
+			name = DHTestingAdditions;
+			path = ../DHTestingAdditions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,7 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2997F11B3FAAE200142352 /* DHTestingAdditionExampleTests.m in Sources */,
-				CE29980C1B3FABE300142352 /* XCTestCase+DHTestingAdditions.m in Sources */,
+				CE3EAEA31B40FDBC00D425A7 /* XCTestCase+DHTestingAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2997FC1B3FAAE200142352 /* DHTestingAdditionExampleUITests.m in Sources */,
-				CE29980D1B3FABE300142352 /* XCTestCase+DHTestingAdditions.m in Sources */,
+				CE3EAEA41B40FDBC00D425A7 /* XCTestCase+DHTestingAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				HEADER_SEARCH_PATHS = "../**";
 				INFOPLIST_FILE = DHTestingAdditionExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.danielhall.DHTestingAdditionExampleTests;
@@ -465,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				HEADER_SEARCH_PATHS = "../**";
 				INFOPLIST_FILE = DHTestingAdditionExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.danielhall.DHTestingAdditionExampleTests;
@@ -476,6 +479,7 @@
 		CE2998071B3FAAE200142352 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "../**";
 				INFOPLIST_FILE = DHTestingAdditionExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.danielhall.DHTestingAdditionExampleUITests;
@@ -488,6 +492,7 @@
 		CE2998081B3FAAE200142352 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "../**";
 				INFOPLIST_FILE = DHTestingAdditionExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.danielhall.DHTestingAdditionExampleUITests;
