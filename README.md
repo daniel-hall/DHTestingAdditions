@@ -1,12 +1,12 @@
 # DHTestingAdditions
-Helpful additions for XCTest, starting with a method to wait until an XCUIElement appears before continuing
+Helpful additions for XCTest, starting with a method to wait until an XCUIElement appears before continuing.
 
 ## Installation
 Download and copy the DHTestingAdditions folder into your project and add it to your UI Testing target.
 
 ## Example Usage
 
-```
+```objective-c
 - (void)testTapGoButton {  
 	XCUIApplication *app = [[XCUIApplication alloc] init];
 	XCUIElement *goButton = app.buttons[@"Go"];
